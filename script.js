@@ -3,7 +3,7 @@ const appDiv = document.getElementById("app");
 
 loginBtn.onclick = () => {
   alert("Google OAuth not active in demo. Add your Client ID in script.");
-  // Implement Google OAuth here
+  const CLIENT_ID = "517052885242-n4duglpp9d82o9rgee6t43cuhouvhskl.apps.googleusercontent.com";
 };
 
 async function generateSuggestions() {
