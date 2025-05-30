@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini vidIQ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Mini vidIQ</h1>
+    <button id="login-btn">Login with Google</button>
+    <div id="app" style="display: none;">
+      <h2>AI Title & Tag Generator</h2>
+      <textarea id="topic-input" placeholder="Enter your video topic..."></textarea>
+      <button onclick="generateSuggestions()">Generate</button>
+      <pre id="output"></pre>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
